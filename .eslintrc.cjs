@@ -1,0 +1,23 @@
+module.exports = {
+	root: true,
+	extends: ['alloy', 'alloy/react', 'alloy/typescript', 'plugin:react-hooks/recommended'],
+	env: {
+		// Your environments (which contains several predefined global variables)
+		//
+		browser: true,
+		node: true,
+		es6: true
+		// mocha: true,
+		// jest: true,
+		// jquery: true
+	},
+	globals: {
+		// Your global variables (setting to false means it's not allowed to be reassigned)
+		//
+		// myGlobal: false
+	},
+	rules: {
+		// Customize your rules
+		'@typescript-eslint/consistent-type-definitions': 0
+	}
+}
