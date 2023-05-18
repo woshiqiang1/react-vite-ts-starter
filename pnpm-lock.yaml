@@ -24,7 +24,7 @@ specifiers:
   sass: 1.60.0
   typescript: 4.9.5
   unplugin-mock: 1.0.3
-  vite: 4.2.0
+  vite: 4.3.7
   zustand: 4.3.7
 
 dependencies:
@@ -43,7 +43,7 @@ devDependencies:
   '@types/react-dom': 18.0.11
   '@typescript-eslint/eslint-plugin': 5.57.0_x4rubgibnu7ujqspfqdeho4yiu
   '@typescript-eslint/parser': 5.57.0_ip5up2nocltd47wbnuyybe5dxu
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.0
+  '@vitejs/plugin-react': 3.1.0_vite@4.3.7
   eslint: 8.37.0
   eslint-config-alloy: 4.9.0_t6erhp4j3jolkao2pertlg6aje
   eslint-plugin-react: 7.32.2_eslint@8.37.0
@@ -53,8 +53,8 @@ devDependencies:
   prettier: 2.8.7
   sass: 1.60.0
   typescript: 4.9.5
-  unplugin-mock: 1.0.3_vite@4.2.0
-  vite: 4.2.0_hghbulspu73jfdazs4i6yiqype
+  unplugin-mock: 1.0.3_vite@4.3.7
+  vite: 4.3.7_hghbulspu73jfdazs4i6yiqype
 
 packages:
 
@@ -926,7 +926,7 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@4.2.0:
+  /@vitejs/plugin-react/3.1.0_vite@4.3.7:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -937,7 +937,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.4
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.0_hghbulspu73jfdazs4i6yiqype
+      vite: 4.3.7_hghbulspu73jfdazs4i6yiqype
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2760,8 +2760,8 @@ packages:
     hasBin: true
     dev: true
 
-  /postcss/8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
+  /postcss/8.4.23:
+    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -3442,15 +3442,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve/1.22.1:
-    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.11.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve/2.0.0-next.4:
     resolution: {integrity: sha512-iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==}
     hasBin: true
@@ -3484,8 +3475,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.20.2:
-    resolution: {integrity: sha512-3zwkBQl7Ai7MFYQE0y1MeQ15+9jsi7XxfrqwTb/9EK8D9C9+//EBR4M+CuA1KODRaNbFez/lWxA5vhEGZp4MUg==}
+  /rollup/3.22.0:
+    resolution: {integrity: sha512-imsigcWor5Y/dC0rz2q0bBt9PabcL3TORry2hAa6O6BuMvY71bqHyfReAz5qyAqiQATD1m70qdntqBfBQjVWpQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3851,7 +3842,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-mock/1.0.3_vite@4.2.0:
+  /unplugin-mock/1.0.3_vite@4.3.7:
     resolution: {integrity: sha512-gBNzC/OjMyMOTp71mCPnXEBTFq/T4Je5IwS9qZKpVTxW7a57E3ywHi6N9eh4YODRhajoupQEYOeSrvIeAGPO/w==}
     peerDependencies:
       esbuild: '*'
@@ -3866,7 +3857,7 @@ packages:
       picocolors: 1.0.0
       regexparam: 2.0.1
       unplugin: 1.3.1
-      vite: 4.2.0_hghbulspu73jfdazs4i6yiqype
+      vite: 4.3.7_hghbulspu73jfdazs4i6yiqype
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3910,8 +3901,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite/4.2.0_hghbulspu73jfdazs4i6yiqype:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.3.7_hghbulspu73jfdazs4i6yiqype:
+    resolution: {integrity: sha512-MTIFpbIm9v7Hh5b0wSBgkcWzSBz7SAa6K/cBTwS4kUiQJfQLFlZZRJRQgqunCVzhTPCk674tW+0Qaqh3Q00dBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3937,9 +3928,8 @@ packages:
     dependencies:
       '@types/node': 18.15.11
       esbuild: 0.17.15
-      postcss: 8.4.21
-      resolve: 1.22.1
-      rollup: 3.20.2
+      postcss: 8.4.23
+      rollup: 3.22.0
       sass: 1.60.0
     optionalDependencies:
       fsevents: 2.3.2
